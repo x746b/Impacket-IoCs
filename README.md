@@ -1,6 +1,6 @@
 # Dissecting Impacket
 
-A public reference of protocol-level and implementation-level indicators of compromise(IoCs) for detecting Impacket-driven activity.
+A public reference of protocol-level and implementation-level indicators of compromise(IoCs) for detecting Impacket-driven activity. An associated blogpost has been written here: https://www.abdulmhsblog.com/posts/impacket-iocs/ as well as a blogpost explaining how I used the Windows server 2003 source code and a map of the source code for others to use for other projects similar to Impacket-IoCs: https://www.abdulmhsblog.com/posts/useingthewindowssourcecode/
 
 Feel free to open an issue if you find something you think I incorrectly stated, for any feedback or if you have a specific protocol or implementation youd like me to add fingerprints for
 
