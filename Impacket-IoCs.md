@@ -1768,6 +1768,7 @@ We can see how much shorter/lighter the Impacket path is in comparison to the ex
 
 ![Pasted image 20260501134952](images/Pasted%20image%2020260501134952.png)
 
+Something else to note here is that even if Impacket used the `IWbemLoginClientID::SetClientInfo` call from step 3 that I mentioned earlier(thats defined in wmi.py) then it would end up likely introducing a different/second IoC. This IoC would surface if `SetClientInfo` is called via the helper, as the helper signature is `SetClientInfo(self, wszClientMachine, lClientProcId = 1234)`.As we can see, lClientProcId defaults to `1234`, not the real OS process ID. We know this is anamoulous as per [MS-WMI] Appendix B: Product Behavior footnote <77>: "Windows clients pass the client process ID in the lClientProcId parameter."
 
 **Expected / Proper Baseline**
 
