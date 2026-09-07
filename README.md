@@ -4,6 +4,7 @@ A public reference of protocol-level and implementation-level indicators of comp
 
 Feel free to open an issue if you find something you think I incorrectly stated, for any feedback or if you have a specific protocol or implementation youd like me to add fingerprints for
 
+Feel free to join a community of link minded individuals of work like this and others across the golang tooling chain on https://discord.gg/GjVUuJ9jm
 ## Overview
 
 This repository contains a part of my notes from an internal rewrite/fork of Impacket that I had undertaken at my current job. I had taken alot of the internal signals produced by Impacket and several of its example tools and provided them here for other blue and red teamers to benefit from. 
